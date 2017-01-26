@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Zachary D. Sisco</title>
     <style type="text/css">
-        body{margin:40px auto;max-width:650px;line-height:1.6;font-size:18px;color:#444;padding:0 10px}
+        body{margin:40px auto;max-width:650px;line-height:1.6;font-size:18px;color:#444;padding:0 10px;text-align: justify}
         h1,h2,h3{line-height:1.2}
     </style>
 </head>
@@ -19,17 +19,31 @@
     <p>
     Zach is interested in mathematical models and representations for software reverse engineering problems. 
     </p>
-    <h3>Current Research Project</h3>
-    Zach is currently researching using formal methods to model the <i>concept assignment problem</i> for assembly language representations of programs. 
-    <br/>
-    The <i>concept assignment problem</i> (also referred to as <i>concept location</i> or <i>feature location</i>) is the problem of mapping concepts to locations in a program.
-    <br/>
-    This is difficult in assembly because assembly instructions lack semantic information and higher-level programming constructs compared to source code representations of programs. 
-    Automating concept assignment improves a reverse engineer's comprehension of executable software by determining what concepts and features exist in a program.  
+    <h3>Current Research Projects</h3>
+    <p>
+        <b>A Formalization of Dynamic Pointer Tainting for Understanding Memory Corruption Vulnerabilities in Binary Programs: </b>
+        This research considers non-control data vulnerabilities in binary programs such as format string errors, heap corruption, and stack buffer overflows. 
+        Pointer tainting is a technique used to track sources of possibly corrupt or vulnerable input through the dereferencing of pointers. 
+        The method has been frequently implemented in real-world and experimental solutions, in both source code and binary, but with varying degrees of success&mdash;often limited by the number of false positives and false negatives. 
+        This research proposes a formalization of pointer taintedness for tracking pointers during execution in binary programs. 
+        By using formal methods we hope to answer the following questions:
+        <ul>
+            <li>What properties must be present to guarantee the presence of non-control data vulnerabilities in a given program?</li>
+            <li>Can these properties be algorithmically extracted from a binary program?</li>
+            <li>Does an implementation of the formal method reduce the false positive rate compared to previous implementations?</li>
+        </ul>
+    </p>
+    <p>
+        <b>A Semantics-Based Approach to Concept Assignment in Assembly Code: </b>
+        Zach is currently researching using formal methods to model the <i>concept assignment problem</i> for assembly language representations of programs. 
+        The <i>concept assignment problem</i> (also referred to as <i>concept location</i> or <i>feature location</i>) is the problem of mapping concepts to locations in a program.
+        This is difficult in assembly because assembly instructions lack semantic information and higher-level programming constructs compared to source code representations of programs. 
+        Automating concept assignment improves a reverse engineer's comprehension of executable software by determining what concepts and features exist in a program.  
+    </p>
     <h3>Publications</h3>
     <!-- Look at ORCiD, ResearcherID, ResearchGate, Academia.edu, and Google Scholar for organizing publications. http://libguides.rowan.edu/c.php?g=410134&p=2800556  -->
     <ul>
-        <li>Sisco, Z. D. and Bryant, A. R. <a href="papers/zachary-sisco-iccws17-revision-2.pdf" target="_blank">A Semantics-Based Approach to Concept Assignment in Assembly Code.</a> To appear in: <i>Proceedings of the 12th International Conference on Cyber Warfare and Security, Dayton, Ohio, USA, 2-3 March 2017</i>.</li>
+        <li>Sisco, Z. D. and Bryant, A. R. <a href="papers/zachary-sisco-iccws17-revision-2.pdf" target="_blank">A Semantics-Based Approach to Concept Assignment in Assembly Code.</a> To appear in: <i>Proceedings of the 12th International Conference on Cyber Warfare and Security, Dayton, Ohio, USA, 2&ndash;3 March 2017</i>.</li>
         <!--<li>A Semantic Approach to Concept Assignment in Assembly Code</li>-->
         <li>Sisco, Z. D., Dudenhofer, P. P., and Bryant, A. R. <a href="papers/modeling-information-flow_preprint_version-2.pdf" target="_blank">Modeling Information Flow for an Autonomous Agent to Support Reverse Engineering Work.</a> <i>Journal of Defense Modeling and Simulation: Applications, Methodology, Technology</i>. Prepublished October 10, 2016; DOI: 10.1177/1548512916670784</li>
     </ul>
