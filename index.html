@@ -1,69 +1,52 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Zachary D. Sisco</title>
-    <style type="text/css">
-        body{margin:40px auto;max-width:650px;line-height:1.6;font-size:18px;color:#444;padding:0 10px;text-align: justify}
-        h1,h2,h3{line-height:1.2}
-    </style>
-</head>
-<body>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zachary D. Sisco</title>
+<style>
+    body{
+        margin:1em auto;
+        max-width:40em;
+        padding:0 .62em;
+        font:1.0em/1.6 sans-serif;
+        text-align: justify;
+    }
+    h1,h2,h3 {
+        line-height:1.2;
+    }
+    @media print{
+        body{
+            max-width:none
+        }
+    }
+</style>
+
+<article>
     <header>
         <h1>Zachary D. Sisco</h1> <img src="zach.jpg" width="260" height="290">
-	<!--<h1>Zachary D. Sisco</h1> <img src="zach.jpg" width="371" height="414">-->
-        <aside>Zachary Sisco just finished his MS in Computer Science at <a href="http://www.wright.edu/">Wright State University</a> under the supervision of Drs. Adam Bryant and Marty Emmert.</aside>
+        <aside>Zachary Sisco just finished his MS in Computer Science at Wright State University under the supervision of Dr. Adam Bryant and Dr. J. M. Emmert.</aside>
     </header>
     
     <h2>Research</h2>
     <p>
     Zachary is interested in applying formal methods and verification to problems in computer security. 
     </p>
+
     <h3>Publications</h3>
-    <!-- Look at ORCiD, ResearcherID, ResearchGate, Academia.edu, and Google Scholar for organizing publications. http://libguides.rowan.edu/c.php?g=410134&p=2800556  -->
+    <!-- Look at dblp, ORCiD, ResearcherID, ResearchGate, Academia.edu, and Google Scholar for organizing publications. http://libguides.rowan.edu/c.php?g=410134&p=2800556  -->
     <ul>
         <li>Sisco, Z. D. and Bryant, A. R. (2017). <a href="papers/semantics-based-approach-to-concept-assignment-in-assembly-code.pdf" target="_blank">A semantics-based approach to concept assignment in assembly code</a>. In <i>Proceedings of the 12th International Conference on Cyber Warfare and Security, Dayton, Ohio, USA, 2&ndash;3 March 2017</i>.</li>
 
 	<li>Sisco, Z. D., Dudenhofer, P. P., and Bryant, A. R. (2017). <a href="papers/modeling-information-flow_preprint_version-2.pdf" target="_blank">Modeling information flow for an autonomous agent to support reverse engineering work</a>. <i>The Journal of Defense Modeling and Simulation: Applications, Methodology, Technology</i>, <b>14</b>(3), pp.245&ndash;256.</li>
     </ul>
 
-    <!--
     <h3>Thesis</h3>
     <ul>
 	<li>Sisco, Z. D. (2018). <a href="papers/sisco-zachary-thesis.pdf" target="_blank">Verifying data-oriented gadgets in binary programs to build data-only exploits</a>. (Master's Thesis). Wright State University, Dayton, Ohio, USA.</li>
     </ul>
-    -->
-    <!--
-    <h3>Current Research Projects</h3>
-    <p>
-        <b>Ensuring Data-flow Integrity of Binary Programs Using Formal Methods: </b>
-        This research considers non-control data vulnerabilities in binary programs. 
-        Attacks that exploit these vulnerabilities are harder to detect because they respect the legitimate control flow of the program and by-pass current memory protection schemes such as Address Space Layout Randomization and Data Execution Prevention. 
-        Instead, non-control data attacks alter the data flow of a program to cause harm. 
-        Non-control data attacks are capable of harming systems through information leakage, permissions escalation, and arbitrary code execution. 
-        This research uses formal methods to specify an abstract machine language that secures data flow through runtime semantics. 
-        The formal specification is then used to implement a binary instrumentation tool that enforces data-flow integrity during runtime.  
-    </p>
-    <p>
-        <b>A Semantics-Based Approach to Concept Assignment in Assembly Code: </b>
-        Zach is currently researching using formal methods to model the <i>concept assignment problem</i> for assembly language representations of programs. 
-        The <i>concept assignment problem</i> (also referred to as <i>concept location</i> or <i>feature location</i>) is the problem of mapping concepts to locations in a program.
-        This is difficult in assembly because assembly instructions lack semantic information and higher-level programming constructs compared to source code representations of programs. 
-        Automating concept assignment improves a reverse engineer's comprehension of executable software by determining what concepts and features exist in a program.  
-    </p>-->
-    <!--<h2>CV</h2>-->
+
     <h2>Other</h2>
     <ul>
 	<li>See my <a href="https://github.com/zsisco" target="_blank">Github page</a> for software/tools I've worked on.</li>
     </ul>
-    <!--ul>
-        <li>I wrote a <a href="https://github.com/zsisco/maxwelm" target="_blank">simple window manager</a> in C. It's lean, and I still use it on older computers.</li>
-        <li><a href="https://github.com/zsisco/yaye">y86 Emulator</a> &mdash; Emulates the y86 Instruction Set Architecture (a minimal subset of x86). Written in C. Also, developed a y86 assembly program that exploits a stack buffer overflow in the emulator.</li>
-        <li><a href="https://github.com/zsisco/hidddaeus">USB Intrusion Detection Daemon</a> &mdash; Linux daemon that uses machine learning to detect intrusions made by malicious USB devices masquerading as Human Interface Devices. Written in C and Python. Achieves a mean detection accuracy of 89.3% in initial tests.</li>
-    </ul-->
-
-<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-46163202-2','auto');ga('send','pageview');
-</script> 
-</body>
-</html>
+</article>
