@@ -11,6 +11,7 @@ photo_dir=$1
 
 read -p "Gallery title: " gallery_title
 read -p "Gallery date: " gallery_date
+read -p "Gallery filename: " gallery_page
 
 # Generate <img> tags based on files in photo dir
 imgs=""
@@ -26,15 +27,18 @@ for photo in ${photo_dir}/*; do
 			imgs+="\t<p><img src=\"$photo\" class=\"landscape\"></p>\n"
 		else
 			imgs+="\t<p><img src=\"$photo\" class=\"portrait\"></p>\n"
+			# TODO: For half-frame photos it could be cool to have two
+			# next to each other on a single line.
 		fi
 	fi
 done
 
-cat <<EOF > gallery.html
+cat <<EOF > ${gallery_page}.html
 <!DOCTYPE html>
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+	<title>$gallery_title</title>
 	<style>
 		img {
 			object-fit: contain;
