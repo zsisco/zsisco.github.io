@@ -21,15 +21,15 @@ imgs=""
 for photo; do
 	if [ -z "$has_identify" ];
 	then
-		imgs+="\t<p><img src=\"$photo\"></p>\n"
+		imgs+="\t<p><img src=\"$photo\" loading=\"lazy\"></p>\n"
 	else
 		# Use ImageMagick identify to get height/width of image
 		ratio=$(identify -format '%[fx:(h/w)]' "$photo")
 		if awk "BEGIN {exit !($ratio <= 1.0)}";
 		then
-			imgs+="\t<p><img src=\"$photo\" class=\"landscape\"></p>\n"
+			imgs+="\t<p><img src=\"$photo\" loading=\"lazy\" class=\"landscape\"></p>\n"
 		else
-			imgs+="\t<p><img src=\"$photo\" class=\"portrait\"></p>\n"
+			imgs+="\t<p><img src=\"$photo\" loading=\"lazy\" class=\"portrait\"></p>\n"
 			# TODO: For half-frame photos it could be cool to have two
 			# photos next to each other on a single <p>.
 		fi
