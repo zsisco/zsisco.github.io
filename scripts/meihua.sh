@@ -19,21 +19,21 @@ has_identify=$?
 # Generate <img> elements based on input files
 imgs=""
 for photo; do
-	if [ -z "$has_identify" ];
+	imgs+="\t<p><a href=\"$photo\"><img src=\"$photo\" loading=\"lazy\""
+	if [ "$has_identify" -eq 1 ];
 	then
-		imgs+="\t<p><img src=\"$photo\" loading=\"lazy\"></p>\n"
-	else
 		# Use ImageMagick identify to get height/width of image
 		ratio=$(identify -format '%[fx:(h/w)]' "$photo")
 		if awk "BEGIN {exit !($ratio <= 1.0)}";
 		then
-			imgs+="\t<p><img src=\"$photo\" loading=\"lazy\" class=\"landscape\"></p>\n"
+			imgs+=" class=\"landscape\""
 		else
-			imgs+="\t<p><img src=\"$photo\" loading=\"lazy\" class=\"portrait\"></p>\n"
-			# TODO: For half-frame photos it could be cool to have two
-			# photos next to each other on a single <p>.
+			imgs+=" class=\"portrait\""
 		fi
 	fi
+	imgs+="></a></p>\n"
+	# TODO: For half-frame photos it could be cool to have two
+	# photos next to each other on a single <p>.
 done
 
 cat <<EOF > index.html
