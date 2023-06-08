@@ -7,8 +7,6 @@ if [ $# -eq 0 ]; then
 	exit 1
 fi
 
-photo_dir=$1
-
 read -p "Gallery title: " gallery_title
 read -p "Gallery date: " gallery_date
 
