@@ -2,6 +2,13 @@
 # 美画
 #
 
+# TODO: Usage improvement.
+# Run this script in the parent photos dir;
+# it contains a mapping of child dir to (gallery title + date).
+# Then visit each child dir and generates its gallery
+# based on title and date parameters (if index.html missing).
+# Then, in the parent dir generate and index of galleries.
+
 if [ $# -eq 0 ]; then
 	printf "\nUsage:\n $ meihua.sh image-file ...\n\n"
 	exit 1
