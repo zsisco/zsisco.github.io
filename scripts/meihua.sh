@@ -1,15 +1,15 @@
 #! /bin/sh
 # 美画
 #
-
 # Run this script in the parent photos dir;
-# it contains a mapping of child dir to (album title + date).
-# Then visit each child dir and generates its photo album
+# meta.txt contains a mapping of child dir to (album title + date).
+# Then visit each child dir and generate its photo album
 # based on title and date parameters (if index.html missing).
-# Then, in the parent dir generate and index of photo albums.
-
+# Then, in the parent dir generate an index of photo albums.
+#
 # Usage:
-# -f   Force generate all photo albums
+# meihua.sh [-f]
+# -f    Force generate all photo albums
 (! ([ $# -gt 0 ] && [ "$1" = "-f" ]))
 force=$?
 
