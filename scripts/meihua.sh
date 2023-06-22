@@ -2,51 +2,29 @@
 # 美画
 #
 
-# TODO: Usage improvement.
 # Run this script in the parent photos dir;
-# it contains a mapping of child dir to (gallery title + date).
-# Then visit each child dir and generates its gallery
+# it contains a mapping of child dir to (album title + date).
+# Then visit each child dir and generates its photo album
 # based on title and date parameters (if index.html missing).
-# Then, in the parent dir generate and index of galleries.
+# Then, in the parent dir generate and index of photo albums.
 
-if [ $# -eq 0 ]; then
-	printf "\nUsage:\n $ meihua.sh image-file ...\n\n"
-	exit 1
-fi
+# Usage:
+# -f   Force generate all photo albums
+(! ([ $# -gt 0 ] && [ "$1" = "-f" ]))
+force=$?
 
-read -p "Gallery title: " gallery_title
-read -p "Gallery date: " gallery_date
+# Script uses current directory as root
+PHOTOS="."
+
+[ ! -f "$PHOTOS"/meta.txt ] && echo "Error: No meta.txt file found!" && exit 1
 
 # Check if ImageMagick installed
 (! command -v identify &> /dev/null)
 has_identify=$?
 
-# Generate <img> elements based on input files
-imgs=""
-for photo; do
-	imgs+="\t<p><a href=\"$photo\"><img src=\"$photo\" loading=\"lazy\""
-	if [ "$has_identify" -eq 1 ];
-	then
-		# Use ImageMagick identify to get height/width of image
-		ratio=$(identify -format '%[fx:(h/w)]' "$photo")
-		if awk "BEGIN {exit !($ratio <= 1.0)}";
-		then
-			imgs+=" class=\"landscape\""
-		else
-			imgs+=" class=\"portrait\""
-		fi
-	fi
-	imgs+="></a></p>\n"
-	# TODO: For half-frame photos it could be cool to have two
-	# photos next to each other on a single <p>.
-done
-
-cat <<EOF > index.html
-<!DOCTYPE html>
-<html>
-<head>
+# CSS, header stuff
+styles=$(cat <<EOF
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-	<title>${gallery_title}</title>
 	<style>
 		img {
 			object-fit: contain;
@@ -73,14 +51,75 @@ cat <<EOF > index.html
 			text-align: center;
 		}
 	</style>
+EOF
+)
+
+albums=""
+
+while read meta; do
+    album=$(echo "$meta" | cut -d ';' -f 1)
+    album_title=$(echo "$meta" | cut -d ';' -f 2)
+    album_date=$(echo "$meta" | cut -d ';' -f 3)
+
+    albums+="<li><a href=\"$album/index.html\">$album_title ($album_date)</a></li>\n"
+
+    if [ "$force" = 1 ] || [ ! -f "$album"/index.html ];
+    then
+        # Assumes .jpg file endings
+        # Generate <img> elements based on input files
+        imgs=""
+        for photo_file in $(find $PHOTOS/$album -name "*.jpg"); do
+            photo=$(echo "$photo_file" | cut -d '/' -f 3)
+	        imgs+="\t<p><a href=\"$photo\"><img src=\"$photo\" loading=\"lazy\""
+	        if [ "$has_identify" -eq 1 ];
+	        then
+		        # Use ImageMagick identify to get height/width of image
+		        ratio=$(identify -format '%[fx:(h/w)]' "$photo_file")
+		        if awk "BEGIN {exit !($ratio <= 1.0)}";
+		        then
+			        imgs+=" class=\"landscape\""
+		        else
+			        imgs+=" class=\"portrait\""
+		        fi
+	        fi
+	        imgs+="></a></p>\n"
+	        # TODO: For half-frame photos it could be cool to have two
+	        # photos next to each other on a single <p>.
+        done
+        cat <<EOF > $album/index.html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>${album_title}</title>
+$(echo "$styles")
 </head>
 <body>
 	<header>
-		<h1>${gallery_title}</h1>
-		<h3>${gallery_date}</h3>
+		<h1>${album_title}</h1>
+		<h3>${album_date}</h3>
 	</header>
 $(echo "$imgs")
 </body>
 </html>
 EOF
+    fi
+done <$PHOTOS/meta.txt
 
+# Finally, generate index file with list of galleries
+cat <<EOF > index.html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Photos</title>
+$(echo "$styles")
+</head>
+<body>
+	<header>
+		<h1>Photos</h1>
+    </header>
+<ul>
+$(echo "$albums")
+</ul>
+</body>
+</html>
+EOF
