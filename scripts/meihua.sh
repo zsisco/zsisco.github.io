@@ -68,7 +68,8 @@ while read meta; do
         # Assumes .jpg file endings
         # Generate <img> elements based on input files
         imgs=""
-        for photo_file in $(find $PHOTOS/$album -name "*.jpg"); do
+        for photo_file in $(find $PHOTOS/$album -name "*.jpg" -print | sort ); do
+			echo "$photo_file"
             photo=$(echo "$photo_file" | cut -d '/' -f 3)
 	        imgs+="\t<p><a href=\"$photo\"><img src=\"$photo\" loading=\"lazy\""
 	        if [ "$has_identify" -eq 1 ];

@@ -1,5 +1,5 @@
 nyc;NYC;April 30 -- May 17, 2023
 st-john;St. John, USVI;April 21 -- 29, 2023
 vancouver;Vancouver;March 24 -- 29, 2023
-campus-point;Campus Point;March 12, 2023
-san-diego;San Diego;March 11, 2023
+campus-point;Campus Point, UCSB;March 12, 2023
+san-diego;Balboa Park, San Diego;March 11, 2023
