@@ -1,6 +1,6 @@
 oregon-expired;Oregon;Expired Tri-X 400, June 24 -- 25, 2023
-goleta-skatepark-expired;Goleta Skatepark;Expired Tri-X 400, May 21, 2023
-richard-sb-expired;Richard comes to SB;Expired Tri-X 400, May 20, 2023
+goleta-skatepark-expired;Goleta Skatepark;Expired Tri-X 400, May 28, 2023
+richard-sb-expired;Richard comes to SB;Expired Tri-X 400, May 27, 2023
 nyc;NYC;April 30 -- May 17, 2023
 st-john;St. John, USVI;April 21 -- 29, 2023
 vancouver;Vancouver;March 24 -- 29, 2023
