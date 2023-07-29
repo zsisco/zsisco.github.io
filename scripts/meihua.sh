@@ -60,8 +60,9 @@ while read meta; do
     album=$(echo "$meta" | cut -d ';' -f 1)
     album_title=$(echo "$meta" | cut -d ';' -f 2)
     album_date=$(echo "$meta" | cut -d ';' -f 3)
+    album_extra=$(echo "$meta" | cut -d ';' -f 4)
 
-    albums+="<li><a href=\"$album/index.html\">$album_title ($album_date)</a></li>\n"
+    albums+="<li><a href=\"$album/index.html\">$album_title</a></li>\n"
 
     if [ "$force" = 1 ] || [ ! -f "$album"/index.html ];
     then
@@ -98,6 +99,7 @@ $(echo "$styles")
 	<header>
 		<h1>${album_title}</h1>
 		<h3>${album_date}</h3>
+		<p>${album_extra}</p>
 	</header>
 $(echo "$imgs")
 </body>
