@@ -16,6 +16,11 @@
             max-width: none
         }
     }
+    footer {
+	    text-align: right;
+	    margin-top: 80px;
+	    padding-bottom: 20px;
+    }
 </style>
 
 <header>
@@ -35,25 +40,19 @@ in computer architecture and hardware design and verification.
 
 ### Conference and Workshop Publications
 
-* [Loop Rerolling for Hardware Decompilation](papers/loop-rerolling-hw-decompilation.pdf)  
+* [Loop Rerolling for Hardware Decompilation](papers/loop-rerolling-hw-decompilation.pdf) (PLDI 2023)  
+  Zachary D. Sisco, Jonathan Balkind, Timothy Sherwood, Ben Hardekopf
+* [Semi-Automated Translation of a Formal ISA Specification to Hardware](papers/plarch23.pdf) (PLARCH 2023)  
+  Harlan Kringen, Zachary Sisco, Jonathan Balkind, Timothy Sherwood, Ben Hardekopf
+* <u>On the Generality of Matrix Multiplication</u> (PLARCH 2023)  
+  Andrew Alex, Zachary D. Sisco, Jonathan Balkind
+* [A Position on Program Synthesis for Processor Development](papers/a-position-on-program-synthesis-for-processor-development.pdf) (LATTE 2022)  
   Zachary D. Sisco, Jonathan Balkind, Timothy Sherwood, Ben Hardekopf  
-  ACM Conference on Programming Language Design and Implementation (PLDI) 2023
-* [Semi-Automated Translation of a Formal ISA Specification to Hardware](papers/plarch23.pdf)  
-  Harlan Kringen, Zachary Sisco, Jonathan Balkind, Timothy Sherwood, Ben Hardekopf  
-  Workshop on Programming Languages and Computer Architecture (PLARCH) 2023
-* <u>On the Generality of Matrix Multiplication</u>  
-  Andrew Alex, Zachary D. Sisco, Jonathan Balkind  
-  Workshop on Programming Languages and Computer Architecture (PLARCH) 2023
-* [A Position on Program Synthesis for Processor Development](papers/a-position-on-program-synthesis-for-processor-development.pdf)  
-  Zachary D. Sisco, Jonathan Balkind, Timothy Sherwood, Ben Hardekopf  
-  Workshop on Languages, Tools, and Techniques for Accelerator Design (LATTE) 2022  
   [(Source code repo)](https://github.com/pllab/latte22-demo)
-* [A semantics-based approach to concept assignment in assembly code](papers/semantics-based-approach-to-concept-assignment-in-assembly-code.pdf)  
-  Zachary D. Sisco, Adam Bryant  
-  International Conference on Cyber Warfare and Security (ICCWS) 2017
-* [Modeling information flow for an autonomous agent to support reverse engineering work](papers/modeling-information-flow_preprint_version-2.pdf)  
-  Zachary D. Sisco, Patrick Dudenhofer, Adam Bryant  
-  Journal of Defense Modeling and Simulation: Applications, Methodology, Technology (JDMS) 2017
+* [A semantics-based approach to concept assignment in assembly code](papers/semantics-based-approach-to-concept-assignment-in-assembly-code.pdf) (ICCWS 2017)  
+  Zachary D. Sisco, Adam Bryant
+* [Modeling information flow for an autonomous agent to support reverse engineering work](papers/modeling-information-flow_preprint_version-2.pdf) (JDMS 2017)  
+  Zachary D. Sisco, Patrick Dudenhofer, Adam Bryant
 
 ### Thesis
 
@@ -73,3 +72,5 @@ in computer architecture and hardware design and verification.
   I've recently gotten into film photography.
   I shoot on an old [Olympus Trip 35](http://camera-wiki.org/wiki/Olympus_Trip_35") ---
   mine was manufactured in Japan around October, 1973.
+
+<footer>This page is <a href="http://jeffhuang.com/designed_to_last/">designed to last</a>.</footer>

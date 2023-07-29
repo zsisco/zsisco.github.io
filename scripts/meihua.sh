@@ -13,6 +13,8 @@
 (! ([ $# -gt 0 ] && [ "$1" = "-f" ]))
 force=$?
 
+# TODO: Convert JPG's to PNG's, compress for faster loading
+
 # Script uses current directory as root
 PHOTOS="."
 
