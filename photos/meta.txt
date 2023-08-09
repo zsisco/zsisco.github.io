@@ -1,4 +1,5 @@
-oregon-expired;Oregon;June 24 -- 25, 2023;Shot on expired Tri-X 400.
+oregon-color;Oregon (Mt St Helens & Dunes);July 22 -- Aug 6, 2023;Shot on CineStill 400D.
+oregon-expired;Oregon (Mt Hood & Portland);June 24 -- 25, 2023;Shot on expired Tri-X 400.
 goleta-skatepark-expired;Goleta Skatepark;May 28, 2023;Shot on expired Tri-X 400.
 richard-sb-expired;Richard comes to SB;May 27, 2023;Shot on expired Tri-X 400.
 nyc;NYC;April 30 -- May 17, 2023;Kentmere 100 and Ilford HP5 400, I think. First two shots are last frames from Kodak Gold.
