@@ -70,7 +70,7 @@ in computer architecture and hardware design and verification.
 
 * [Photo albums:](photos/index.html)  
   I've recently gotten into film photography.
-  I shoot on an old [Olympus Trip 35](http://camera-wiki.org/wiki/Olympus_Trip_35") ---
+  I shoot on an old [Olympus Trip 35](http://camera-wiki.org/wiki/Olympus_Trip_35) ---
   mine was manufactured in Japan around October, 1973.
 
 <footer>This page is <a href="http://jeffhuang.com/designed_to_last/">designed to last</a>.</footer>
