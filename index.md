@@ -61,10 +61,10 @@ in computer architecture and hardware design and verification.
 
 ## Little Projects
 
-* [Synthesizing Concurrent Code using a Solver-aided DSL](papers/conimp.pdf")
-* [Investigations into a Separating-typed Language](papers/Separating_typed_Languages.pdf")
-* [Scheme2Beam: A Source Compiler from Scheme to Erlang](papers/Scheme2Beam.pdf")
-* [Formalizing a Consensus Protocol using Dependent Session Types](papers/dusty.pdf")
+* [Synthesizing Concurrent Code using a Solver-aided DSL](papers/conimp.pdf)
+* [Investigations into a Separating-typed Language](papers/Separating_typed_Languages.pdf)
+* [Scheme2Beam: A Source Compiler from Scheme to Erlang](papers/Scheme2Beam.pdf)
+* [Formalizing a Consensus Protocol using Dependent Session Types](papers/dusty.pdf)
 
 ## Photography
 
