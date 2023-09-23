@@ -10,10 +10,9 @@
 # Usage:
 # meihua.sh [-f]
 # -f    Force generate all photo albums
+
 (! ([ $# -gt 0 ] && [ "$1" = "-f" ]))
 force=$?
-
-# TODO: Convert JPG's to PNG's, compress for faster loading
 
 # Script uses current directory as root
 PHOTOS="."
@@ -23,6 +22,8 @@ PHOTOS="."
 # Check if ImageMagick installed
 (! command -v identify &> /dev/null)
 has_identify=$?
+(! command -v convert &> /dev/null)
+has_convert=$?
 
 # CSS, header stuff
 styles=$(cat <<EOF
@@ -71,14 +72,36 @@ while read meta; do
         # Assumes .jpg file endings
         # Generate <img> elements based on input files
         imgs=""
-        for photo_file in $(find $PHOTOS/$album -name "*.jpg" -print | sort ); do
-			echo "$photo_file"
-            photo=$(echo "$photo_file" | cut -d '/' -f 3)
-	        imgs+="\t<p><a href=\"$photo\"><img src=\"$photo\" loading=\"lazy\""
+        for photo_path in $(find $PHOTOS/$album -name "*.jpg" -print | sort ); do
+            photo_basename="$(basename $photo_path)"
+            display_photo="$photo_basename"
+            # check if file name has "_compress", then skip
+            if echo "$photo_path" | grep -q "_compress"; then
+            	continue
+            fi
+            echo "$photo_path"
+            if [ "$has_convert" -eq 1 ] ;
+            then
+            	# Use ImageMagick convert to compress
+            	compressed="${photo_path%.*}_compress.jpg"
+            	echo "$compressed"
+            	if [ ! -f "$compressed" ];
+            	then
+            		convert "$photo_path" \
+            			-sampling-factor 4:2:0 \
+            			-strip \
+            			-quality 60 \
+            			-interlace JPEG \
+            			-colorspace sRGB \
+            			"$compressed"
+            	fi
+            	display_photo="${photo_basename%.*}_compress.jpg"
+            fi
+	        imgs+="\t<p><a href=\"$photo_basename\"><img src=\"$display_photo\" loading=\"lazy\""
 	        if [ "$has_identify" -eq 1 ];
 	        then
 		        # Use ImageMagick identify to get height/width of image
-		        ratio=$(identify -format '%[fx:(h/w)]' "$photo_file")
+		        ratio=$(identify -format '%[fx:(h/w)]' "$photo_path")
 		        if awk "BEGIN {exit !($ratio <= 1.0)}";
 		        then
 			        imgs+=" class=\"landscape\""
