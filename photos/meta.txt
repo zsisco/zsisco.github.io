@@ -1,3 +1,5 @@
+morro-bay;Morro Bay and Cambria CA;Oct 21 -- 22 and Nov 4, 2023;Kodak Portra Gold.
+portland-camping;Portland and a camping trip;Aug 11 -- Sep 10, 2023;Ilford HP5 400, probably.
 oregon-color;Oregon (Mt St Helens & Dunes);July 22 -- Aug 6, 2023;Shot on CineStill 400D.
 oregon-expired;Oregon (Mt Hood & Portland);June 24 -- 25, 2023;Shot on expired Tri-X 400.
 goleta-skatepark-expired;Goleta Skatepark;May 28, 2023;Shot on expired Tri-X 400.
