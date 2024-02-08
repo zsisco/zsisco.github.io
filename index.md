@@ -36,7 +36,7 @@
 ## Research
 
 I am interested in applying programming language theory to problems
-in computer architecture and hardware design and verification.
+in computer architecture and hardware design.
 
 ### Conference and Workshop Publications
 
@@ -44,7 +44,7 @@ in computer architecture and hardware design and verification.
   Zachary D. Sisco, Jonathan Balkind, Timothy Sherwood, Ben Hardekopf
 * [Semi-Automated Translation of a Formal ISA Specification to Hardware](papers/plarch23.pdf) (PLARCH 2023)  
   Harlan Kringen, Zachary Sisco, Jonathan Balkind, Timothy Sherwood, Ben Hardekopf
-* <u>On the Generality of Matrix Multiplication</u> (PLARCH 2023)  
+* On the Generality of Matrix Multiplication (PLARCH 2023)  
   Andrew Alex, Zachary D. Sisco, Jonathan Balkind
 * [A Position on Program Synthesis for Processor Development](papers/a-position-on-program-synthesis-for-processor-development.pdf) (LATTE 2022)  
   Zachary D. Sisco, Jonathan Balkind, Timothy Sherwood, Ben Hardekopf  
