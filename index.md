@@ -41,7 +41,8 @@ in computer architecture and hardware design.
 ### Conference and Workshop Publications
 
 * [Loop Rerolling for Hardware Decompilation](papers/loop-rerolling-hw-decompilation.pdf) (PLDI 2023)  
-  Zachary D. Sisco, Jonathan Balkind, Timothy Sherwood, Ben Hardekopf
+  Zachary D. Sisco, Jonathan Balkind, Timothy Sherwood, Ben Hardekopf  
+  [(Source code repo)](https://git.sr.ht/~zachs/hardware-loop-rerolling)
 * [Semi-Automated Translation of a Formal ISA Specification to Hardware](papers/plarch23.pdf) (PLARCH 2023)  
   Harlan Kringen, Zachary Sisco, Jonathan Balkind, Timothy Sherwood, Ben Hardekopf
 * On the Generality of Matrix Multiplication (PLARCH 2023)  
