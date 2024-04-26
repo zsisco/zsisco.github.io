@@ -27,7 +27,7 @@
   <h1>Zachary Sisco</h1>
   <p><img src="zach.jpg" width="33%"></p>
   <aside>
-    I am a PhD student at UC Santa Barbara,
+    I am a PhD candidate at UC Santa Barbara,
     co-advised by Professors <a href="https://sites.cs.ucsb.edu/~benh/">Ben Hardekopf</a>
     and <a href="https://jbalkind.github.io/">Jonathan Balkind</a>.
   </aside>
