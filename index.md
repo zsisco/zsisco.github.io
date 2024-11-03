@@ -1,0 +1,90 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zachary D. Sisco</title>
+<style>
+    body{
+        margin: 1em auto;
+        max-width: 60%;
+        padding: 0 .62em;
+        font: 1.0em/1.6 sans-serif;
+    }
+    h1,h2,h3 {
+        line-height: 1.2;
+    }
+    @media print{
+        body{
+            max-width: none
+        }
+    }
+    footer {
+	    text-align: right;
+	    margin-top: 80px;
+	    padding-bottom: 20px;
+    }
+</style>
+
+<header>
+  <h1>Zachary D. Sisco</h1>
+  <center>
+  <p><img src="zach-campus-point.jpg" width="55%"></p>
+  </center>
+  <aside>
+    Zach is a PhD candidate at UC Santa Barbara,
+    co-advised by <a href="https://sites.cs.ucsb.edu/~benh/">Ben Hardekopf</a>
+    and <a href="https://jbalkind.github.io/">Jonathan Balkind</a>.
+  </aside>
+</header>
+
+## Research
+
+My research is about applying solver-aided programming languages to problems in
+hardware design.
+
+### Conference and Journal Publications
+
+* [Control Logic Synthesis: Drawing the Rest of the OWL](papers/control-logic-synthesis.pdf) (ASPLOS 2024, to appear)  
+  __Zachary D. Sisco__, Andrew David Alex, Zechen Ma, Yeganeh Aghamohammadi,
+  Boming Kong, Benjamin Darnell, Timothy Sherwood, Ben Hardekopf, Jonathan Balkind  
+  [(Source code repo)](https://github.com/UCSBarchlab/owl)
+* [Loop Rerolling for Hardware Decompilation](papers/loop-rerolling-hw-decompilation.pdf) (PLDI 2023)  
+  __Zachary D. Sisco__, Jonathan Balkind, Timothy Sherwood, Ben Hardekopf  
+  [(Source code repo)](https://git.sr.ht/~zachs/hardware-loop-rerolling)
+* [A semantics-based approach to concept assignment in assembly code](papers/semantics-based-approach-to-concept-assignment-in-assembly-code.pdf) (ICCWS 2017)  
+  __Zachary D. Sisco__, Adam Bryant
+* [Modeling information flow for an autonomous agent to support reverse engineering work](papers/modeling-information-flow_preprint_version-2.pdf) (JDMS 2017)  
+  __Zachary D. Sisco__, Patrick Dudenhofer, Adam Bryant
+
+### Workshop Papers
+
+* [There and Back Again: A Netlist's Tale With Much Egraphin'](papers/there-and-back-again.pdf) (LATTE 2024)  
+  Gus Henry Smith, __Zachary D. Sisco__, Thanawat Techaumnuaiwit, Jingtao Xia,
+  Vishal Canumalla, Andrew Cheung, Zachary Tatlock, Chandrakana Nandi, Jonathan Balkind  
+  [(Web demo)](https://sampl.cs.washington.edu/churchroad-web-demo/)
+* [Semi-Automated Translation of a Formal ISA Specification to Hardware](papers/plarch23.pdf) (PLARCH 2023)  
+  Harlan Kringen, __Zachary Sisco__, Jonathan Balkind, Timothy Sherwood, Ben Hardekopf
+* [On the Generality of Matrix Multiplication]() (PLARCH 2023)  
+  Andrew Alex, __Zachary D. Sisco__, Jonathan Balkind
+* [A Position on Program Synthesis for Processor Development](papers/a-position-on-program-synthesis-for-processor-development.pdf) (LATTE 2022)  
+  __Zachary D. Sisco__, Jonathan Balkind, Timothy Sherwood, Ben Hardekopf  
+  [(Source code repo)](https://github.com/pllab/latte22-demo)
+
+### Thesis
+
+* [Verifying data-oriented gadgets in binary programs to build data-only exploits](papers/sisco-zachary-thesis.pdf)  
+  Master's Thesis (Wright State University) 2018
+
+### Little Projects
+
+* [Formalizing a Consensus Protocol using Dependent Session Types](papers/dusty.pdf)
+* [Scheme2Beam: A Source Compiler from Scheme to Erlang](papers/Scheme2Beam.pdf)
+* [Investigations into a Separating-typed Language](papers/Separating_typed_Languages.pdf)
+* [Synthesizing Concurrent Code using a Solver-aided DSL](papers/conimp.pdf)
+
+## Photography
+
+* [Photo albums:](photos/index.html)  
+  I've recently gotten into film photography.
+  I shoot on an old [Olympus Trip 35](http://camera-wiki.org/wiki/Olympus_Trip_35) ---
+  mine was manufactured in Japan around October, 1973.
+
+<footer>This page is <a href="http://jeffhuang.com/designed_to_last/">designed to last</a>.</footer>
