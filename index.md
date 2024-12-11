@@ -30,15 +30,22 @@
   </center>
   <aside>
     Zach is a PhD candidate at UC Santa Barbara,
-    co-advised by <a href="https://sites.cs.ucsb.edu/~benh/">Ben Hardekopf</a>
-    and <a href="https://jbalkind.github.io/">Jonathan Balkind</a>.
+    co-advised by <a href="https://jbalkind.github.io/">Jonathan Balkind</a>
+    and <a href="https://sites.cs.ucsb.edu/~benh/">Ben Hardekopf</a>.
   </aside>
 </header>
 
-## Research
+---
 
-My research is about applying solver-aided programming languages to problems in
-hardware design.
+__I am currently on the academic job market!__
+Please see my [CV](./sisco-cv-web.pdf) and [research statement](./sisco-research-statement.pdf).
+
+---
+
+I conduct research at the intersection of __Programming Languages__ and __Computer Architecture__.
+My research integrates formal methods into open-source languages for chip design based around increasing developer agility with correctness guarantees.
+
+I have published this work in top venues such as PLDI and ASPLOS while mentoring more than 20 students in research, 11 of which are co-authors on 4 published conference and workshop papers and 3 manuscripts that are currently under review.
 
 ### Conference and Journal Publications
 
@@ -80,11 +87,11 @@ hardware design.
 * [Investigations into a Separating-typed Language](papers/Separating_typed_Languages.pdf)
 * [Synthesizing Concurrent Code using a Solver-aided DSL](papers/conimp.pdf)
 
-## Photography
-
-* [Photo albums:](photos/index.html)  
-  I've recently gotten into film photography.
-  I shoot on an old [Olympus Trip 35](http://camera-wiki.org/wiki/Olympus_Trip_35) ---
-  mine was manufactured in Japan around October, 1973.
+<!-- ## Photography -->
+<!---->
+<!-- * [Photo albums:](photos/index.html)   -->
+<!--   I've recently gotten into film photography. -->
+<!--   I shoot on an old [Olympus Trip 35](http://camera-wiki.org/wiki/Olympus_Trip_35) --- -->
+<!--   mine was manufactured in Japan around October, 1973. -->
 
 <footer>This page is <a href="http://jeffhuang.com/designed_to_last/">designed to last</a>.</footer>
