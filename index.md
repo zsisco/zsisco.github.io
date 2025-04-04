@@ -49,7 +49,7 @@ I have published this work in top venues such as PLDI and ASPLOS while mentoring
 
 ### Conference and Journal Publications
 
-* [Control Logic Synthesis: Drawing the Rest of the OWL](papers/control-logic-synthesis.pdf) (ASPLOS 2024, to appear)  
+* [Control Logic Synthesis: Drawing the Rest of the OWL](papers/control-logic-synthesis.pdf) (ASPLOS 2024)  
   __Zachary D. Sisco__, Andrew David Alex, Zechen Ma, Yeganeh Aghamohammadi,
   Boming Kong, Benjamin Darnell, Timothy Sherwood, Ben Hardekopf, Jonathan Balkind  
   [(Source code repo)](https://github.com/UCSBarchlab/owl)
