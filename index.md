@@ -31,21 +31,24 @@
   <aside>
     Zach is a PhD candidate at UC Santa Barbara,
     co-advised by <a href="https://jbalkind.github.io/">Jonathan Balkind</a>
-    and <a href="https://sites.cs.ucsb.edu/~benh/">Ben Hardekopf</a>.
+    and <a href="https://sites.cs.ucsb.edu/~benh/">Ben Hardekopf</a>
+    (to graduate in June 2025).
   </aside>
 </header>
 
 ---
 
-__I am currently on the academic job market!__
-Please see my [CV](./sisco-cv-web.pdf) and [research statement](./sisco-research-statement.pdf).
+<!-- __I am currently on the academic job market!__ -->
+<!-- Please see my [CV](./sisco-cv-web.pdf) and [research statement](./sisco-research-statement.pdf). -->
+I am an incoming assistant professor of computer science in the [School of Data Science](https://sds.cuhk.edu.cn/en) at the [Chinese University of Hong Kong, Shenzhen](https://cuhk.edu.cn/en).
+I will join in fall 2025 and am actively recruiting students!
 
 ---
 
 I conduct research at the intersection of __Programming Languages__ and __Computer Architecture__.
 My research integrates formal methods into open-source languages for chip design to increase developer agility with correctness guarantees.
 
-I have published this work in top venues such as PLDI and ASPLOS while mentoring more than 20 students in research, 11 of which are co-authors on 4 published conference and workshop papers and 3 manuscripts that are currently under review.
+<!-- I have published this work in top venues such as PLDI and ASPLOS while mentoring more than 20 students in research, 11 of which are co-authors on 4 published conference and workshop papers and 3 manuscripts that are currently under review. -->
 
 ### Conference and Journal Publications
 
