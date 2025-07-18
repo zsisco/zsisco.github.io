@@ -1,20 +1,12 @@
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=10, user-scalable=yes">
 <title>Zachary D. Sisco</title>
 <style>
     body{
         margin: 1em auto;
-        max-width: 60%;
-        padding: 0 .62em;
+        max-width: 800px;
+        padding: 0.6em;
         font: 1.0em/1.6 sans-serif;
-    }
-    h1,h2,h3 {
-        line-height: 1.2;
-    }
-    @media print{
-        body{
-            max-width: none
-        }
     }
     footer {
 	    text-align: right;
@@ -73,7 +65,7 @@ My research integrates formal methods into open-source languages for chip design
   [(Web demo)](https://sampl.cs.washington.edu/churchroad-web-demo/)
 * [Semi-Automated Translation of a Formal ISA Specification to Hardware](papers/plarch23.pdf) (PLARCH 2023)  
   Harlan Kringen, __Zachary Sisco__, Jonathan Balkind, Timothy Sherwood, Ben Hardekopf
-* [On the Generality of Matrix Multiplication]() (PLARCH 2023)  
+* On the Generality of Matrix Multiplication (PLARCH 2023)  
   Andrew Alex, __Zachary D. Sisco__, Jonathan Balkind
 * [A Position on Program Synthesis for Processor Development](papers/a-position-on-program-synthesis-for-processor-development.pdf) (LATTE 2022)  
   __Zachary D. Sisco__, Jonathan Balkind, Timothy Sherwood, Ben Hardekopf  
