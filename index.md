@@ -18,30 +18,19 @@
 <header>
   <h1>Zachary D. Sisco</h1>
   <center>
-  <p><img src="zach-campus-point.jpg" width="55%"></p>
+  <p><img src="assets/zach-campus-point.jpg" width="55%"></p>
   </center>
-  <aside>
-I am an incoming assistant professor of computer science in the [School of Data Science](https://sds.cuhk.edu.cn/en) at the [Chinese University of Hong Kong, Shenzhen](https://cuhk.edu.cn/en).
-I will join in fall 2025 and am actively recruiting students!
-I completed my PhD at UC Santa Barbara,
-co-advised by <a href="https://jbalkind.github.io/">Jonathan Balkind</a>
-and <a href="https://sites.cs.ucsb.edu/~benh/">Ben Hardekopf</a>.
-  </aside>
 </header>
 
-<!-- ## Research -->
-
-<!-- TODO: Write a couple paragraphs describing main research directions. -->
-<!-- (1) Overall theme. -->
-<!-- (2) HW Decomp. -->
-<!-- (3) Control Logic Synthesis (refining HW implementations from formal specs). -->
-<!-- (4) New techniques and abstractions for implementing and analyzing designs at the HW--SW interface. -->
-<!--     Examples? LATTE '24, ... -->
+I am an [Assistant Professor](https://sds.cuhk.edu.cn/en/teacher/2233) of Computer Science in the [School of Data Science](https://sds.cuhk.edu.cn/en) at the [Chinese University of Hong Kong, Shenzhen](https://cuhk.edu.cn/en).
+I completed my PhD at UC Santa Barbara, co-advised by [Jonathan Balkind](https://jbalkind.github.io/) and [Ben Hardekopf](https://sites.cs.ucsb.edu/~benh/).
 
 I conduct research at the intersection of __Programming Languages__ and __Computer Architecture__.
 My research integrates formal methods into open-source languages for chip design to increase developer agility with correctness guarantees.
 
-<!-- I have published this work in top venues such as PLDI and ASPLOS while mentoring more than 20 students in research, 11 of which are co-authors on 4 published conference and workshop papers and 3 manuscripts that are currently under review. -->
+I am looking for students!
+You can read my [research overview](research.html) for more information.
+Please send me an email if you think we have mutual interests.
 
 ### Conference and Journal Publications
 
@@ -71,15 +60,18 @@ My research integrates formal methods into open-source languages for chip design
   __Zachary D. Sisco__, Jonathan Balkind, Timothy Sherwood, Ben Hardekopf  
   [(Source code repo)](https://github.com/pllab/latte22-demo)
 
-<!-- ### Talks -->
+<!-- ### Recorded Talks -->
 
 <!-- * [Latch-Up 2025]() -->
+<!-- * [PLDI 2023]() -->
 <!-- * [LATTE 2022]() -->
 
-### Thesis
+### Theses
 
+* Automated Reasoning for Agile and Robust Chip Design  
+  PhD Dissertation (UC Santa Barbara) 2025
 * [Verifying data-oriented gadgets in binary programs to build data-only exploits](papers/sisco-zachary-thesis.pdf)  
-  Master's Thesis (Wright State University) 2018
+  MS Thesis (Wright State University) 2018
 
 ### Bits
 
