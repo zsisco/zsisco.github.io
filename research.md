@@ -50,7 +50,7 @@ These projects tackle different aspects of the challenges outlined above using a
 <img style="float: right; max-width: 50%; margin-left: 5px; border:1px solid #000000" src="assets/restoftheowl.png">
 Chip design requires reasoning between different layers of abstraction: from an architectural specification (the instructions the chip executes), to the microarchitectural datapath (the functional units), down to the low-level control logic (which coordinates computation on the chip).
 Implementing control logic itself is tedious and error-prone, where changes at these levels propagate non-obvious changes to the control.
-This work, published in [ASPLOS 2024](https://dl.acm.org/doi/10.1145/3622781.3674170), introduces a new technique, _control logic synthesis_, which automatically generates conrrect-by-construction control logic for a datapath according to a formal architectural specification.
+This work, published in [ASPLOS 2024](https://dl.acm.org/doi/10.1145/3622781.3674170), introduces a new technique, __control logic synthesis__, which automatically generates conrrect-by-construction control logic for a datapath according to a formal architectural specification.
 
 The insight is adapting program synthesis techniques to HDLs, bridging the gap between the datapath and the high-level specification---a key direction we previously identified [(LATTE 2022)](papers/a-position-on-program-synthesis-for-processor-development.pdf).
 Control logic synthesis allows chip developers to freely modify and iterate over the designs of both the specification and the datapath without getting caught up in the abstruse details of control, as we show in case studies covering embedded-class RISC-V cores and accelerators geared for cryptographic applications.
@@ -67,7 +67,7 @@ To date, hobbyists interested in this kind of computer archaeology take photos o
 But from there a new problem arises: how do you know what that sea of components actually _means_?
 For instance, what if you wanted to duplicate this chip?
 Or what if you wanted to recover the code that produced the chip in the first place?
-This is the problem we call _hardware decompilation_:
+This is the problem we call __hardware decompilation__:
 Taking a digital circuit like in this photo and recovering the high-level source code that can reproduce it.
 
 By the way, this photo is of the Z80, an 8-bit microprocessor made around 1975.

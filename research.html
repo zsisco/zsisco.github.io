@@ -76,9 +76,9 @@ the chip). Implementing control logic itself is tedious and error-prone,
 where changes at these levels propagate non-obvious changes to the
 control. This work, published in <a
 href="https://dl.acm.org/doi/10.1145/3622781.3674170">ASPLOS 2024</a>,
-introduces a new technique, <em>control logic synthesis</em>, which
-automatically generates conrrect-by-construction control logic for a
-datapath according to a formal architectural specification.</p>
+introduces a new technique, <strong>control logic synthesis</strong>,
+which automatically generates conrrect-by-construction control logic for
+a datapath according to a formal architectural specification.</p>
 <p>The insight is adapting program synthesis techniques to HDLs,
 bridging the gap between the datapath and the high-level specification—a
 key direction we previously identified <a
@@ -101,9 +101,9 @@ components. But from there a new problem arises: how do you know what
 that sea of components actually <em>means</em>? For instance, what if
 you wanted to duplicate this chip? Or what if you wanted to recover the
 code that produced the chip in the first place? This is the problem we
-call <em>hardware decompilation</em>: Taking a digital circuit like in
-this photo and recovering the high-level source code that can reproduce
-it.</p>
+call <strong>hardware decompilation</strong>: Taking a digital circuit
+like in this photo and recovering the high-level source code that can
+reproduce it.</p>
 <p>By the way, this photo is of the Z80, an 8-bit microprocessor made
 around 1975. Chips nowadays could be made up of tens of
 <em>billions</em> of components. Modern digital design is complex, and
