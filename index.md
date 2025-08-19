@@ -13,6 +13,9 @@
 	    margin-top: 80px;
 	    padding-bottom: 20px;
     }
+    span.spam {
+        display: none;
+    }
 </style>
 
 <header>
@@ -30,7 +33,7 @@ My research integrates formal methods into open-source languages for chip design
 
 I am looking for students!
 You can read my [research overview](research.html) for more information.
-Please send me an email if you think we have mutual interests.
+Please send me an email at <span class="spam" aria-hidden="true">SPAM</span> `zsisco ` <!-- qazwsxedcrfvtgbthnplmokjnibiuh --> ` cuhk edu cn` if you think we have mutual interests.
 
 ### Conference and Journal Publications
 
