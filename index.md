@@ -33,7 +33,7 @@ My research integrates formal methods into open-source languages for chip design
 
 I am looking for students!
 You can read my [research overview](research.html) for more information.
-Please send me an email at <span class="spam" aria-hidden="true">SPAM</span> `zsisco ` <!-- qazwsxedcrfvtgbthnplmokjnibiuh --> ` cuhk edu cn` if you think we have mutual interests.
+If you think we have mutual interests, please send me an email: <span class="spam" aria-hidden="true">SPAM</span> `zsisco【at】` <!-- qazwsxedcrfvtgbthnplmokjnibiuh --> `cuhk「dot」edu《dot》cn`
 
 ### Conference and Journal Publications
 
