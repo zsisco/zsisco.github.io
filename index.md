@@ -71,7 +71,7 @@ If you think we have mutual interests, please send me an email: <span class="spa
 
 ### Theses
 
-* Automated Reasoning for Agile and Robust Chip Design  
+* [Automated Reasoning for Agile and Robust Chip Design](papers/sisco-dissertation.pdf)  
   PhD Dissertation (UC Santa Barbara) 2025
 * [Verifying data-oriented gadgets in binary programs to build data-only exploits](papers/sisco-zachary-thesis.pdf)  
   MS Thesis (Wright State University) 2018
