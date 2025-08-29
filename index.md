@@ -83,11 +83,5 @@ If you think we have mutual interests, please send me an email: <span class="spa
 * [Investigations into a Separating-typed Language](papers/Separating_typed_Languages.pdf)
 * [Synthesizing Concurrent Code using a Solver-aided DSL](papers/conimp.pdf)
 
-## Photography
-
-* [Photo albums:](https://photos.zsisco.net)  
-  I've recently gotten into film photography.
-  I shoot on an old [Olympus Trip 35](http://camera-wiki.org/wiki/Olympus_Trip_35) ---
-  mine was manufactured in Japan around October, 1973.
 
 <footer>This page is <a href="http://jeffhuang.com/designed_to_last/">designed to last</a>.</footer>
