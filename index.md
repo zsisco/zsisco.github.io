@@ -147,7 +147,7 @@ Modern digital design is complex, and chip designers have to analyze these enorm
 This research not only helps hobbyists reverse engineer vintage computers, hardware decompilation enables new design tools for modern chip designers.
 Recovering structure in digital circuits allows chip designers to analyze circuits faster and with stronger correctness guarantees.
 
-Our initial work in hardware decompilation focused on [hardware loop rerolling](https://dl.acm.org/doi/10.1145/3591237A), which is about finding repeated logic in circuits and lifting it to loops in high-level HDL code.
+Our initial work in hardware decompilation focused on [hardware loop rerolling](https://dl.acm.org/doi/10.1145/3591237), which is about finding repeated logic in circuits and lifting it to loops in high-level HDL code.
 There are many more programming abstractions to recover such as modules, state machines, memory, etc., as well as applications for hardware decompilation to improve the design process (such as automated technology re-targeting).
 
 ### Refinement via Formal Specifications
