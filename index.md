@@ -51,6 +51,9 @@ If you think we have mutual interests, please send me an email: <span class="spa
 
 ### Workshop Papers
 
+* [A Position on Language Abstraction for Custom Circuit Design](papers/transilog-latte.pdf) (LATTE 2026)  
+  Yongsheng Qin, __Zachary D. Sisco__  
+  [(Web demo)](https://github.com/Boucii/TransLog-Demo/tree/demo-public)
 * [There and Back Again: A Netlist's Tale With Much Egraphin'](papers/there-and-back-again.pdf) (LATTE 2024)  
   Gus Henry Smith, __Zachary D. Sisco__, Thanawat Techaumnuaiwit, Jingtao Xia,
   Vishal Canumalla, Andrew Cheung, Zachary Tatlock, Chandrakana Nandi, Jonathan Balkind  
