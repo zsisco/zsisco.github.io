@@ -37,6 +37,14 @@ If you think we have mutual interests, please send me an email: <span class="spa
 
 ### Conference and Journal Publications
 
+<!-- * [Fungible Memories for Automated Technology Mapping and Retargeting](papers/memo-pldi26.pdf) (PLDI 2026)   -->
+* [Fungible Memories for Automated Technology Mapping and Retargeting]() (PLDI 2026)  
+  __Zachary D. Sisco__${^{\ast\dagger}}$, Sijie Kong${^\ast}$, Daniel Ruelas-Petrisko, Jingtao Xia, Julian Springer, Varun Rao, Spencer Wang, Gus Henry Smith, Ben Hardekopf, Jonathan Balkind  
+  \footnotesize ${^\ast}$Co-first author, ${^\dagger}$Corresponding author.
+<!-- * [Improving Equality Saturation for EDA via Semantic E-graphs](papers/nextmap-pldi26.pdf) (PLDI 2026)   -->
+* [Improving Equality Saturation for EDA via Semantic E-graphs]() (PLDI 2026)  
+  Sijie Kong${^\ast}$, Jingtao Xia${^\ast}$, Daniel Ruelas-Petrisko, __Zachary D. Sisco__, Jonathan Balkind, Gus Henry Smith  
+  \footnotesize ${^\ast}$Co-first author.
 * [Control Logic Synthesis: Drawing the Rest of the OWL](papers/control-logic-synthesis.pdf) (ASPLOS 2024)  
   __Zachary D. Sisco__, Andrew David Alex, Zechen Ma, Yeganeh Aghamohammadi,
   Boming Kong, Benjamin Darnell, Timothy Sherwood, Ben Hardekopf, Jonathan Balkind  
